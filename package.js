@@ -1,7 +1,7 @@
 Package.describe({
   name: 'timbrandin:groups-worldmap-cached',
   summary: 'A worldmap of Meteor Meetup Groups',
-  version: '1.0.0',
+  version: '1.0.1',
   git: 'http://github.com/timbrandin/meteor-groups-worldmap-cached'
 });
 
@@ -11,5 +11,4 @@ Package.onUse(function(api) {
   api.use('templating');
 
   api.addFiles('timbrandin:groups-worldmap-cached.html', 'client');
-  api.addFiles('timbrandin:groups-worldmap-cached.js', 'client');
 });
